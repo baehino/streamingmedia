@@ -1,15 +1,44 @@
 html {
     background-color: #020659;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     margin: 0 auto; 
     background-color: white;
     color: #590242;
+    min-width: 375px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header, footer {
 
+}
+nav {
+    background-color: #030ABC;
+    color: white; 
+    
+}
+nav li {
+    list-style: none;
+    background-color: #030ABC;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    list-style: none; 
+    overflow: hidden;
+}
+
+nav a:hover {
+ background-color: #590242;
+}
+
+img {
+
+}
 /* code for the menu do not touch */
 
 ul {
